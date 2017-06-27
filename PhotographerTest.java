@@ -48,7 +48,7 @@ public void setup() {
   public void canRemoveDigitalCamera() {
     photographer.addCamera(digitalCamera);
     Printable camera = photographer.removeCamera();
-    assertEquals("Nikon 34T, Noise reduction filter, Hi-resolution 2", camera.printDetails)
+    assertEquals("Nikon 34T, Noise reduction filter, Hi-resolution 2", camera.printDetails());
   }
 
 

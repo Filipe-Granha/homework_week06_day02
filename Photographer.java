@@ -26,4 +26,11 @@
      this.backpack.add(camera);
    }
 
+   public Printable removeCamera() {
+     if(cameraCount() > 0) {
+      return backpack.remove(0);
+     }
+     return null;
+   }
+
  }

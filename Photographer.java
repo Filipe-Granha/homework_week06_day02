@@ -33,4 +33,10 @@
      return null;
    }
 
+
+  public void getsHome() {
+    this.backpack.clear();
+  }
+
+  
  }

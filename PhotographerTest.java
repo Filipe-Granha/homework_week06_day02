@@ -52,7 +52,13 @@ public void setup() {
   }
 
 
-
+  @Test
+  public void shouldEmptyBackpackWhenGettingHome() {
+    photographer.addCamera(digitalCamera);
+    photographer.addCamera(analogCamera);
+    photographer.getsHome();
+    assertEquals(0, photographer.cameraCount());
+  }
 
 
 }

@@ -1,6 +1,6 @@
  public class AnalogCamera implements Printable {
 
   public String printDetails() {
-    return "details";
+    return "Sony ILCE5100L, No noise reduciton, Lo-resolution.";
   }
  }

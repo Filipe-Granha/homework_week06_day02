@@ -22,8 +22,8 @@
    }
 
 
-   public void addCamera(Printable) {
-    return this.backpack.
+   public void addCamera(Printable camera) {
+     this.backpack.add(camera);
    }
 
  }

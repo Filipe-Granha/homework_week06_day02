@@ -1,25 +1,43 @@
  import java.util.ArrayList;
+ import java.util.HashMap;
 
 
- public class Photographer implements Printable{
+
+ public class Photographer {
 
    private String name;
    private ArrayList<Printable> backpack; 
+   private String digitalCamera;
+   private String analogCamera;
+   private HashMap<String, Integer> pictures;
+
+   public static void main(String[] args) {
+     
+  
+   HashMap<String, Integer> pictures = new HashMap<String, Integer>();
+
+   pictures.put("Monday", 10);
+   pictures.put("Tuesday", 10);
+   pictures.put("Friday", 20);
+   pictures.put("Saturday", 30);
+
    
 
 
+
+   
+}
    public Photographer(String name) {
     this.name = name;
-    this.backpack = new ArrayList<Printable>(); 
+    this.backpack = new ArrayList<Printable>();
+    this.digitalCamera = digitalCamera;
+    this.analogCamera = analogCamera;
+
    }
 
-
-
-   public String printDetails() {
-     return "Teste";
+   public int totalPictures() {
+    return pictures.values;
    }
-
-
 
 
 
